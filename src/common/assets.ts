@@ -30,7 +30,7 @@ export const SPRITESHEET_ASSETS = [
   {
     assetKey: ASSET_KEYS.SKELETON_WALK,
     frameWidth: 900,
-    frameHeight: 900,
+    frameHeight: 750,
     path: 'assets/skeleton/skeleton_walk.png',
     frameRate: 24,
     repeat: -1,
@@ -38,7 +38,7 @@ export const SPRITESHEET_ASSETS = [
   {
     assetKey: ASSET_KEYS.SKELETON_IDLE,
     frameWidth: 900,
-    frameHeight: 900,
+    frameHeight: 750,
     path: 'assets/skeleton/skeleton_idle.png',
     frameRate: 24,
     repeat: -1,
