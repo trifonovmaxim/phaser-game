@@ -4,6 +4,7 @@ export const ASSET_KEYS = {
   BG_SKY: 'BG_SKY',
   BG_TREES: 'BG_TREES',
   SKELETON_WALK: 'SKELETON_WALK',
+  SKELETON_IDLE: 'SKELETON_IDLE',
 } as const;
 
 export const IMAGE_ASSETS = [
@@ -31,6 +32,14 @@ export const SPRITESHEET_ASSETS = [
     frameWidth: 900,
     frameHeight: 900,
     path: 'assets/skeleton/skeleton_walk.png',
+    frameRate: 24,
+    repeat: -1,
+  },
+  {
+    assetKey: ASSET_KEYS.SKELETON_IDLE,
+    frameWidth: 900,
+    frameHeight: 900,
+    path: 'assets/skeleton/skeleton_idle.png',
     frameRate: 24,
     repeat: -1,
   },

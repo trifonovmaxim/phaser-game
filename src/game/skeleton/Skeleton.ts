@@ -13,9 +13,9 @@ export class Skeleton {
 
   private createSkeleton() {
     this.sprite = this.scene.add
-      .sprite(0, 0, ASSET_KEYS.SKELETON_WALK, 0)
+      .sprite(0, 0, ASSET_KEYS.SKELETON_IDLE, 0)
       .setOrigin(0)
       .setScale(0.5)
-      .play(ASSET_KEYS.SKELETON_WALK);
+      .play(ASSET_KEYS.SKELETON_IDLE);
   }
 }
